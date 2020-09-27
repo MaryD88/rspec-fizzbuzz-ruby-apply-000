@@ -1,12 +1,4 @@
 def fizzbuzz(int)
-  if int % 5 == 0 && int % 3 == 0
-    puts "FizzBuzz"
-  elsif int % 5 == 0
+  if (fizz_5).to eq
     puts "Buzz"
-  elsif int % 3 == 0
-    puts "Fizz"
-    puts "Fizz"
-  else 
-    puts int
-  end
 end
