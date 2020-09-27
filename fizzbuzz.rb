@@ -1,7 +1,7 @@
 def fizzbuzz(int)
   if int % 5 == 0 && int % 3 == 0
     puts "FizzBuzz"
-  if int % 5 == 0
+  elsif int % 5 == 0
     puts "Buzz"
   if int % 3 == 0
     puts "Fizz"
