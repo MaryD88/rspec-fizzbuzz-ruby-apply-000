@@ -1,4 +1,4 @@
 def fizzbuzz(int)
-  if (fizz_5).to eq
+  if (fizz_5) 
     puts "Buzz"
 end
