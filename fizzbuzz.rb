@@ -1,4 +1,4 @@
-1.upto 100 do |i|
+1.upto 15 do |i|
   string = ""
 
   string += "Fizz" if i % 3 == 0
