@@ -1,1 +1,2 @@
-fizzbuzz(3) == "Fizz"
+def fizz_3 = fizzbuzz(3)
+end
