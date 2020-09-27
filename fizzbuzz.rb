@@ -1,9 +1,15 @@
-1.upto 15 do |i|
-  string = ""
-
-  string += "Fizz" if i % 3 == 0
-  string += "Buzz" if i % 5 == 0
-
-  puts "#{i} = #{string}"
-
+def fizzbuzz(n)
+  (1..n).each do |i|
+    if i % 3 == 0 && i % 5 == 0
+      puts 'fizzbuzz'
+    elsif i % 3 == 0
+      puts 'fizz'
+    elsif i % 5 == 0
+      puts 'buzz'
+    else
+      puts i
+    end
+  end
 end
+
+fizzbuzz(100)
