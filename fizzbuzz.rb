@@ -1,11 +1,9 @@
-puts('Lets play fizzbuzz')
-print('enter a number: ')
-number = gets()
-puts(number)
-if number == % 3
-  puts ('fizz')
-elsif number == % 5
-  puts ('buzz')
-elsif number == %15
-  puts ('fizzbuzz')
+1.upto 100 do |i|
+  string = ""
+
+  string += "Fizz" if i % 3 == 0
+  string += "Buzz" if i % 5 == 0
+
+  puts "#{i} = #{string}"
+
 end
